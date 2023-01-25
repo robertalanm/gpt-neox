@@ -170,7 +170,7 @@ class PileSubset(DataDownloader):
 class Pile(DataDownloader):
     name = "pile"
     urls = [
-        f"https://mystic.the-eye.eu/public/AI/pile/train/{i:02}.jsonl.zst"
+        f"https://the-eye.eu/public/AI/pile/train/{i:02}.jsonl.zst"
         for i in range(30)
     ]
 
